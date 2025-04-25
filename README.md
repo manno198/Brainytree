@@ -1,8 +1,10 @@
 
 # 🌳 Brainytree
+<p align="center">
+Brainytree is a cutting-edge platform designed to assist medical professionals and researchers in detecting brain tumors using AI-powered analysis of MRI scans. The platform provides real-time predictions,
+detailed insights, and tools for research and documentation.
+</p>  
 
-Brainytree is a cutting-edge platform designed to assist medical professionals and researchers in detecting brain tumors using AI-powered analysis of MRI scans. The platform provides real-time predictions, detailed insights, and tools for research and documentation.
----
 
 ## Live Demo
 
