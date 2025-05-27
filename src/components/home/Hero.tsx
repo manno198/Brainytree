@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -28,9 +27,10 @@ const Hero = () => {
           <div className="relative lg:h-96 animate-fade-in">
             <div className="absolute inset-0 flex items-center justify-center">
               <img 
-                src="/brain-scan-hero.png" 
-                alt="AI brain scanning visualization" 
-                className="object-contain w-full h-full rounded-lg shadow-lg animate-pulse-subtle"
+                src="/brain-tumor.jpg" 
+                alt="3D illustration of a brain with a tumor" 
+                className="object-contain w-full h-full rounded-lg shadow-2xl ring-4 ring-blue-400/30 transition-transform duration-500 hover:scale-105 hover:-rotate-y-6 hover:shadow-blue-500/50"
+                style={{ perspective: '800px', transformStyle: 'preserve-3d' }}
               />
             </div>
           </div>
