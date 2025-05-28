@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
@@ -7,11 +6,6 @@ const testimonials = [
     quote: "BrainyTree has revolutionized how we approach MRI analysis in our research. The AI model's accuracy is impressive, and the interface is intuitive for clinical settings.",
     author: "Dr. Sarah Johnson",
     position: "Neurosurgeon, Metro Medical Center"
-  },
-  {
-    quote: "As a researcher, I appreciate the rigor behind BrainyTree's AI models and the transparency about their development. The Research Hub is an invaluable resource.",
-    author: "Dr. Michael Chen",
-    position: "Neuroimaging Researcher, University Medical School"
   },
   {
     quote: "The platform's privacy-first approach makes it suitable for handling sensitive medical data. The absence of data storage gives us confidence when using it with patient scans.",

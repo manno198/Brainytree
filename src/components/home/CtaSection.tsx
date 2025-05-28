@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
@@ -15,9 +14,6 @@ const CtaSection = () => {
         <div className="flex flex-wrap justify-center gap-4">
           <Button asChild size="lg" variant="outline" className="bg-white text-medical-blue hover:bg-white/90 border-white">
             <Link to="/analyze">Try BrainyTree Now</Link>
-          </Button>
-          <Button asChild size="lg" variant="ghost" className="text-white hover:bg-medical-blue/30 border border-white">
-            <Link to="/research">Explore Research</Link>
           </Button>
         </div>
       </div>

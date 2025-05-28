@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -39,11 +38,7 @@ const Navbar = () => {
               <div className="hidden md:flex items-center space-x-8">
                 <Link to="/" className="text-medical-dark-blue hover:text-medical-blue transition-colors dark:text-white dark:hover:text-medical-light-blue">Home</Link>
                 <Link to="/analyze" className="text-medical-dark-blue hover:text-medical-blue transition-colors dark:text-white dark:hover:text-medical-light-blue">Analyze MRI</Link>
-                <Link to="/research" className="text-medical-dark-blue hover:text-medical-blue transition-colors dark:text-white dark:hover:text-medical-light-blue">Research Hub</Link>
                 <Link to="/about" className="text-medical-dark-blue hover:text-medical-blue transition-colors dark:text-white dark:hover:text-medical-light-blue">About</Link>
-                <Link to="/profile" className="text-medical-dark-blue hover:text-medical-blue transition-colors dark:text-white dark:hover:text-medical-light-blue">
-                  <User className="h-5 w-5" />
-                </Link>
                 <Button variant="default" className="bg-medical-blue hover:bg-medical-dark-blue dark:bg-medical-light-blue dark:hover:bg-medical-blue">
                   <Link to="/analyze">Upload Scan</Link>
                 </Button>
@@ -76,25 +71,11 @@ const Navbar = () => {
               Analyze MRI
             </Link>
             <Link 
-              to="/research" 
-              className="block px-3 py-2 rounded-md text-base font-medium text-medical-dark-blue hover:bg-medical-blue/10 transition-colors dark:text-white dark:hover:bg-medical-blue/20"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Research Hub
-            </Link>
-            <Link 
               to="/about" 
               className="block px-3 py-2 rounded-md text-base font-medium text-medical-dark-blue hover:bg-medical-blue/10 transition-colors dark:text-white dark:hover:bg-medical-blue/20"
               onClick={() => setIsMenuOpen(false)}
             >
               About
-            </Link>
-            <Link 
-              to="/profile" 
-              className="block px-3 py-2 rounded-md text-base font-medium text-medical-dark-blue hover:bg-medical-blue/10 transition-colors dark:text-white dark:hover:bg-medical-blue/20"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Profile
             </Link>
             <div className="pt-2">
               <Button 
